@@ -1,0 +1,31 @@
+.news-slider {
+  display: flex;
+  width: 100%;
+  background: #fff;
+  font-size: 14px;
+  height: 40px; 
+}
+
+/* Left box */
+.left-news {
+  background: #8b1b24;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  font-weight: bold;
+  min-width: 150px; 
+}
+
+/* Right side scrolling */
+.right-slides {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.right-slides a {
+  color: black;
+  text-decoration: none;
+  margin-right: 30px;
+}

@@ -1,0 +1,17 @@
+.slider {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slides img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: none; 
+}
+
+.slides img.active {
+  display: block; 
+}

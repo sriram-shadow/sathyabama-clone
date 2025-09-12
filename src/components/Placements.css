@@ -1,0 +1,19 @@
+.placements {
+  padding: 40px;
+  text-align: center;
+}
+
+.placements h2 {
+  margin-bottom: 20px;
+  color: #002147;
+}
+
+.placements .logos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.placements img {
+  height: 50px;
+}
