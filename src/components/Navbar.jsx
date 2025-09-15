@@ -13,8 +13,8 @@ export default function Navbar() {
         <li><Link to="/academics">Academics</Link></li>
         <li><Link to="/admissions">Admissions</Link></li>
         <li><Link to="/research">Research</Link></li>
-        <li><Link to="/placements">Placements</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+        <li><Link to="/placement">Placements</Link></li>
+        <li><Link to="/contacts">Contact</Link></li>
       </ul>
     </nav>
   );

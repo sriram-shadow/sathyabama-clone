@@ -21,11 +21,12 @@ export default function Footer() {
         <div className="footer-col">
           <h3>Quick Links</h3>
           <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Academics</a></li>
-            <li><a href="#">Admissions</a></li>
-            <li><a href="#">Research</a></li>
-            <li><a href="#">Placements</a></li>
+            <li><a href="/About">About Us</a></li>
+            <li><a href="/academics">Academics</a></li>
+            <li><a href="/admissions">Admissions</a></li>
+            <li><a href="/research">Research</a></li>
+            <li><a href="/placement">Placements</a></li>
+          
           </ul>
         </div>
 
@@ -33,11 +34,11 @@ export default function Footer() {
         <div className="footer-col">
           <h3>Useful Links</h3>
           <ul>
-            <li><a href="#">NAAC</a></li>
-            <li><a href="#">NIRF</a></li>
-            <li><a href="#">AICTE</a></li>
-            <li><a href="#">NBA</a></li>
-            <li><a href="#">IQAC</a></li>
+            <li><a href="/#">NAAC</a></li>
+            <li><a href="/#">NIRF</a></li>
+            <li><a href="/#">AICTE</a></li>
+            <li><a href="/#">NBA</a></li>
+            <li><a href="/#">IQAC</a></li>
           </ul>
         </div>
 
@@ -57,10 +58,19 @@ export default function Footer() {
             </a>
           </p>
           <div className="social-icons">
-            <a href="#"><img src="/images/facebook.png" alt="Facebook" /></a>
-            <a href="#"><img src="/images/twitter.png" alt="Twitter" /></a>
-            <a href="#"><img src="/images/instagram.png" alt="Instagram" /></a>
-            <a href="#"><img src="/images/youtube.png" alt="YouTube" /></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <img src="/images/facebook.png" alt="Facebook" />
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <img src="/images/twitter.png" alt="Twitter" />
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <img src="/images/instagram.png" alt="Instagram" />
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"> 
+            <img src="/images/youtube.png" alt="YouTube" />
+            </a>
+
           </div>
         </div>
       </div>
