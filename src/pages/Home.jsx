@@ -8,6 +8,9 @@ export default function Home() {
     <>
       <BannerSlider />
       <LatestNews />
+      <div>
+      <img src="/images/image_14.png" alt="publication" style={{ width: "100%", height: "auto", margin: "20px 0" }} />
+      </div>
       <Placements />
     </>
   );
